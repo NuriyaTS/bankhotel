@@ -1,0 +1,222 @@
+@media (max-width: 1000px){
+  .container{
+    max-width: 960px;
+    border: red solid 1px;
+  }
+  header ul {
+    display: none;
+ }
+  header a {
+   display: none;
+ }
+  .burger {
+   width: 40px;
+   height: 4px;
+   background: #ffffff80;
+   position: absolute;
+   right: 40px;
+   top: 50px;
+   z-index: 11;
+ }
+  .burger::before {
+   content: '';
+   width: 40px;
+   height: 4px;
+   background: #ffffff80;
+   position: absolute;
+   top: -9px;
+ }
+ /*top*/
+ .hero_left h2{
+  font-size: 120px;
+ }
+ .hero_center .heroButton{
+  display: none;
+ }
+ .hero_center{
+  position: relative;
+ }
+ .hero_center p{
+  padding-top: 40px;
+ }
+ .hero_star{
+  position: absolute;
+  right: 340px;
+ }
+ /*banner*/
+ .drop_down{
+  background: url(/img/mediaBackgr.png)center/cover no-repeat;
+  height: 487px;
+  justify-content: flex-end;
+  align-items: end;
+ }
+ .blinds{
+  width: 248px;
+  height: 100px;
+ }
+ .btn_yellow{
+  width: 248px;
+  height: 100px;
+ }
+ .leftSide img{
+  width: 357px;
+  height: 530px
+ }
+ /*aboutUs*/
+ .aboutUs .container {
+   background: url(/img/lines.png)center;
+   height: 980px;
+ }
+ .block{
+column-gap: 70px;
+ }
+ .centerSide h2{
+  font-size: 100px;
+  top: 50px;
+  left: -328px;
+ }
+ .centerInfo p{
+  font-size: 13px;
+ }
+ .centerInfo{
+  margin-top: 344px;
+ }
+ .rightSide button{
+  display: none;
+ }
+ /*rooms*/
+.roomsTop h2{
+  font-size: 100px;
+}
+.roomBottom{
+  justify-content: space-between;
+  align-items: center;
+}
+.roomsLeft .leftimg{
+  display: none;
+}
+.roomsLeft .svgBtn{
+  width: 105px;
+  height: 105px;
+}
+.roomsCenter button{
+  display: none;
+}
+.roomsCenter h5 {
+  padding: 155px 0 40px;
+}
+.roomsCenter p{
+  font-size: 13px;
+}
+.roomsCenter span {
+  font-size: 16px;
+}
+.roomsRight img{
+  width: 356px;
+  height: 470px;
+}
+.roomsRight button img{
+  width: 120px;
+  height: 120px;
+}
+.roomsRight button{
+  left: 210px;
+  top: 330px;
+}
+/*facilities*/
+.facilBlock{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.facilBlock p{
+  position: absolute;
+  right: 0;
+}
+.facilImg .spn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.facilImg img{
+  width: 400px;
+  height: 200px;
+}
+.bartender {
+  display: none;
+}
+.facilLow img{
+  width: 230px;
+  height: 150px;
+}
+.facilLow p{
+  font-size: 13px;
+  padding-top: 135px;
+}
+.icerest {
+  align-items: center;
+}
+.icerest .svgBtn{
+  width: 105px;
+  height: 105px;
+}
+.icerest img{
+  width: 356px;
+  height: 504px;
+}
+.info_icerest h2 {
+  font-size: 36px;
+  padding: 100px 0 40px;
+}
+.conf::after{
+  content: '';
+  background: url(/img/arrowright.png);
+  position: absolute;
+  width: 88px;
+  height: 42px;
+  right: 10px;
+}
+.conf img{
+  width: 180px;
+  height: 180px
+}
+.conf h2{
+  font-size: 36px;
+}
+.conf h2 span{
+  font-family: 'Miracle';
+}
+/*gallery*/
+.gallery h2{
+  font-size: 100px;
+}
+.galLeft{
+  height: 226px;
+  width: 192px;
+  row-gap: 178px;
+}
+.galCenter img{
+  width: 299px;
+  height: 192px;
+}
+.galCenter p{
+  width: 300px;
+  font-size: 13px;
+}
+.galRight img{
+  width: 240px;
+  height: 140px;
+}
+.galCenter :nth-child(3)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(/img/poligon.png)center/cover no-repeat;
+  width: 36px;
+  height: 36px;
+  top: -10px;
+  left: -50px;
+}
+/*bottom*/
+
+}
