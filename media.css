@@ -1,7 +1,6 @@
-@media (max-width: 1000px){
+@media (max-width: 1024px){
   .container{
     max-width: 960px;
-    border: red solid 1px;
   }
   header ul {
     display: none;
@@ -53,6 +52,17 @@
  .blinds{
   width: 248px;
   height: 100px;
+ }
+ .blinds a::before {
+   content: '';
+   display: block;
+   width: 20px;
+   height: 11px;
+   background: url(/img/Vector.png);
+   position: absolute;
+   left: 140px;
+   top: 10px;
+   /* transform: translateY(-50%); */
  }
  .btn_yellow{
   width: 248px;
@@ -187,6 +197,24 @@ column-gap: 70px;
   font-family: 'Miracle';
 }
 /*gallery*/
+.apartbanner h2 {
+  font-size: 100px;
+  font-family: 'Miracle';
+  width: 580px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.apartbanner p {
+  width: 250px;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+  padding: 150px 0 0 30px;
+}
+.galTop {
+  width: 600px;
+}
 .gallery h2{
   font-size: 100px;
 }
@@ -218,5 +246,206 @@ column-gap: 70px;
   left: -50px;
 }
 /*bottom*/
+.bottomBox a{
+  font-size: 36px;
+}
+.bottomRight{
+  justify-content: space-around;
+}
+.bottomRight h2{
+  font-size: 150px;
+}
+.bottomRight h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(/img/spn.png) center/cover no-repeat;
+  height: 100px;
+  width: 100px;
+  top: 45px;
+  left: 439px;
+}
+.bottomRight img{
+  width: 231px;
+  height: 231px;
+}
+.bottomRight::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(/img/touch.png)center/cover no-repeat;
+  z-index: 1000;
+  height: 100px;
+  width: 500px;
+  top: 180px;
+  left: 440px;
+}
+.findRoom .blinds{
+  width: 231px;
+  height: 100px;
+}
+.findRoom .btn_black{
+  width: 231px;
+  height: 100px;
+}
+/*footer*/
+.footRight{
+  display: flex;
+  flex-direction: column;
+}
+}
+@media(max-width:768px){
+.container{
+  max-width: 700px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0 42px 20px;
+}
+/*top*/
+.hero_star {
+  display: none;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero_left h2 {
+  font-size: 100px;
+}
+.hero_center p {
+text-align: center;
+width: 440px;
+}
+/*about Us*/
+.rightSide{
+  display: none;
+}
+/*rooms*/
+.roomsTop h2{
+font-size: 60px;
+}
+.roomsTop p{
+  font-size: 14px;
+}
+.roomsLeft{
+  display: none;
+}
+/*facil*/
+.facilImg{
+  width: 300px;
+  height: 150px;
+}
+.facilImg .spn{
+  top: 100%;
+  left: 65px;
+}
+.svgBtn{
+  display: none;
+}
+.icerest img{
+  width: 270px;
+  height: 380px;
+}
+.info_icerest h2 {
+  padding-top: 60px;
 
+
+
+.bottomRight::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(/img/touch.png)center/cover no-repeat;
+  z-index: 1000;
+  height: 100px;
+  width: 500px;
+  top: 180px;
+  left: 370px;
+}
+}
+.conference {
+  padding: 100px 0 ;
+}
+.conf h2{
+  font-size: 22px;
+}
+.conf h2 span{
+padding: 0 70px;
+}
+.conf::after{
+  content: '';
+  background: url(/img/arrowright.png) no-repeat;
+  position: absolute;
+  width: 95px;
+  height: 42px;
+  right: 15px;
+}
+/*gallery*/
+.apartbanner{
+  height: 500px;
+}
+.gallery h2{
+  font-size: 70px;
+}
+.apartbanner p{
+  padding: 0 0 0 30px;
+}
+.galTop{
+  width: 400px;
+  align-items: center;
+}
+.galTop p{
+  font-size: 16px;
+}
+.galLeft{
+  height: 100px;
+  width: 130px;
+  row-gap: 178px;
+}
+.galRight{
+  row-gap: 310px;
+}
+.galRight img {
+  width: 170px;
+  height: 100px;
+}
+.galCenter :nth-child(3){
+  position: relative;
+  width: 180px;
+  text-align: left;
+  text-transform: capitalize;
+}
+/*bottom*/
+.bottomRight h2 {
+ font-size: 84px;
+}
+.bottomRight h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(/img/spn.png) center / cover no-repeat;
+  height: 80px;
+  width: 80px;
+  top: 10px;
+  left: 240px;
+}
+.bottomRight::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(/img/Touch\ \(768\).png) center / cover no-repeat;
+  z-index: 1000;
+  height: 84px;
+  width: 380px;
+  top: 180px;
+  left: 200px;
+}
+.bottomRight img {
+  width: 200px;
+  height: 200px;
+}
 }
